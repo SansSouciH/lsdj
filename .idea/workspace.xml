@@ -4,439 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3583784-c3eb-4c83-bc6a-0c5ade6661ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/common-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-log/src/main/java/com/atguigu/daijia/common/annotation/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-log/src/main/java/com/atguigu/daijia/common/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-log/src/main/java/com/atguigu/daijia/common/enums/BusinessType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-log/src/main/java/com/atguigu/daijia/common/enums/OperatorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/daijia/common/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/daijia/common/result/ResultCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/daijia/common/util/AuthContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/daijia/common/util/IpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/daijia/common/util/LocationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/daijia/common/util/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/daijia/common/util/ResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/rabbit-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/com/atguigu/daijia/common/constant/MqConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/com/atguigu/daijia/common/entity/GuiguCorrelationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/com/atguigu/daijia/common/service/RabbitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/daijia/common/config/knife4j/Knife4jConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/daijia/common/config/mybatisPlus/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/daijia/common/config/redis/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/daijia/common/constant/RedisConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/daijia/common/constant/SystemConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/daijia/common/execption/GuiguException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/daijia/common/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/daijia/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/daijia/security/custom/CustomAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/daijia/security/custom/CustomMd5PasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/daijia/security/custom/CustomUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/daijia/security/fillter/TokenAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/daijia/security/fillter/TokenLoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/daijia/security/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/base/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/coupon/CouponInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/coupon/CustomerCoupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/customer/CustomerCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/customer/CustomerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/customer/CustomerLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/dispatch/OrderJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/dispatch/XxlJobInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/dispatch/XxlJobLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/driver/DriverAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/driver/DriverAccountDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/driver/DriverFaceRecognition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/driver/DriverInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/driver/DriverLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/driver/DriverSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/map/OrderServiceLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/order/OrderBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/order/OrderComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/order/OrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/order/OrderMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/order/OrderMonitorRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/order/OrderProfitsharing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/order/OrderStatusLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/order/OrderTrack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/payment/PaymentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/payment/ProfitsharingInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/rule/CancelRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/rule/FeeRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/rule/ProfitsharingRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/rule/RewardRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/system/SysDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/system/SysLoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/system/SysMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/system/SysOperLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/system/SysPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/system/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/system/SysRoleMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/system/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/entity/system/SysUserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/enums/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/enums/TradeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/coupon/UseCouponForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/customer/ExpectOrderForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/customer/SubmitOrderForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/customer/UpdateCustomerInfoForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/customer/UpdateCustomerPhoneForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/customer/UpdateWxPhoneForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/driver/DriverFaceModelForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/driver/IdCardOcrForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/driver/TransferForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/driver/UpdateDriverAuthInfoForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/driver/UpdateDriverPhoneForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/map/CalculateDrivingLineForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/map/OrderServiceLocationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/map/SearchNearByDriverForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/map/UpdateDriverLocationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/map/UpdateOrderLocationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/order/OrderCommentForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/order/OrderFeeForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/order/OrderInfoForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/order/OrderMonitorForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/order/StartDriveForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/order/UpdateOrderBillForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/order/UpdateOrderCartForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/payment/CreateWxPaymentForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/payment/PaymentInfoForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/payment/ProfitsharingForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/rules/FeeRuleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/rules/FeeRuleRequestForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/rules/ProfitsharingRuleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/rules/ProfitsharingRuleRequestForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/rules/RewardRuleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/rules/RewardRuleRequestForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/form/system/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/query/customer/CustomerInfoQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/query/driver/DriverInfoQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/query/order/OrderInfoQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/query/system/SysLoginLogQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/query/system/SysOperLogQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/query/system/SysPostQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/query/system/SysRoleQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/query/system/SysUserQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/base/LoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/base/PageVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/coupon/AvailableCouponVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/coupon/NoReceiveCouponVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/coupon/NoUseCouponVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/coupon/UsedCouponVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/customer/CustomerInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/customer/CustomerLoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/customer/ExpectOrderVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/dispatch/NewOrderTaskVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/driver/CosUploadVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/driver/DriverAuthInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/driver/DriverInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/driver/DriverLicenseOcrVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/driver/DriverLoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/driver/IdCardOcrVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/map/DrivingLineVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/map/NearByDriverVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/map/OrderLocationVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/map/OrderServiceLastLocationVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/order/CurrentOrderInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/order/NewOrderDataVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/order/OrderBillVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/order/OrderInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/order/OrderListVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/order/OrderPayVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/order/OrderProfitsharingVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/order/OrderRewardVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/order/TextAuditingVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/payment/WxPrepayVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/rules/FeeRuleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/rules/FeeRuleResponseVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/rules/ProfitsharingRuleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/rules/ProfitsharingRuleResponseVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/rules/RewardRuleResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/rules/RewardRuleResponseVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/system/AssginMenuVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/system/AssginRoleVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/system/LoginVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/system/MetaVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/daijia/model/vo/system/RouterVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-gateway/src/main/java/com/atguigu/daijia/ServerGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-gateway/src/main/java/com/atguigu/daijia/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-gateway/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-coupon-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-coupon-client/src/main/java/com/atguigu/daijia/coupon/client/CouponFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-customer-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-customer-client/src/main/java/com/atguigu/daijia/customer/client/CustomerInfoFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-dispatch-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-dispatch-client/src/main/java/com/atguigu/daijia/dispatch/client/NewOrderFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-driver-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-driver-client/src/main/java/com/atguigu/daijia/driver/client/CiFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-driver-client/src/main/java/com/atguigu/daijia/driver/client/CosFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-driver-client/src/main/java/com/atguigu/daijia/driver/client/DriverAccountFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-driver-client/src/main/java/com/atguigu/daijia/driver/client/DriverInfoFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-driver-client/src/main/java/com/atguigu/daijia/driver/client/OcrFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-map-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-map-client/src/main/java/com/atguigu/daijia/map/client/LocationFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-map-client/src/main/java/com/atguigu/daijia/map/client/MapFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-order-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-order-client/src/main/java/com/atguigu/daijia/order/client/OrderInfoFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-order-client/src/main/java/com/atguigu/daijia/order/client/OrderMonitorFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-payment-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-payment-client/src/main/java/com/atguigu/daijia/map/client/WxPayFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-rules-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-rules-client/src/main/java/com/atguigu/daijia/rules/client/FeeRuleFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-rules-client/src/main/java/com/atguigu/daijia/rules/client/ProfitsharingRuleFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-rules-client/src/main/java/com/atguigu/daijia/rules/client/RewardRuleFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-system-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-system-client/src/main/java/com/atguigu/daijia/system/client/SecurityLoginFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-system-client/src/main/java/com/atguigu/daijia/system/client/SysDeptFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-system-client/src/main/java/com/atguigu/daijia/system/client/SysLoginLogFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-system-client/src/main/java/com/atguigu/daijia/system/client/SysMenuFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-system-client/src/main/java/com/atguigu/daijia/system/client/SysOperLogFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-system-client/src/main/java/com/atguigu/daijia/system/client/SysPostFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-system-client/src/main/java/com/atguigu/daijia/system/client/SysRoleFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-system-client/src/main/java/com/atguigu/daijia/system/client/SysUserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-coupon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-coupon/src/main/java/com/atguigu/daijia/ServiceCouponApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-coupon/src/main/java/com/atguigu/daijia/coupon/controller/CouponInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-coupon/src/main/java/com/atguigu/daijia/coupon/mapper/CouponInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-coupon/src/main/java/com/atguigu/daijia/coupon/mapper/CustomerCouponMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-coupon/src/main/java/com/atguigu/daijia/coupon/service/CouponInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-coupon/src/main/java/com/atguigu/daijia/coupon/service/impl/CouponInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-coupon/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-coupon/src/main/resources/mapper/CouponInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-customer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-customer/src/main/java/com/atguigu/daijia/ServiceCustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-customer/src/main/java/com/atguigu/daijia/customer/controller/CustomerInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-customer/src/main/java/com/atguigu/daijia/customer/mapper/CustomerInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-customer/src/main/java/com/atguigu/daijia/customer/mapper/CustomerLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-customer/src/main/java/com/atguigu/daijia/customer/service/CustomerInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-customer/src/main/java/com/atguigu/daijia/customer/service/impl/CustomerInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-customer/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-dispatch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-dispatch/src/main/java/com/atguigu/daijia/ServiceDispatchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-dispatch/src/main/java/com/atguigu/daijia/dispatch/controller/NewOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-dispatch/src/main/java/com/atguigu/daijia/dispatch/mapper/OrderJobMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-dispatch/src/main/java/com/atguigu/daijia/dispatch/mapper/XxlJobLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-dispatch/src/main/java/com/atguigu/daijia/dispatch/service/NewOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-dispatch/src/main/java/com/atguigu/daijia/dispatch/service/impl/NewOrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-dispatch/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/ServiceDriverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/controller/CiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/controller/CosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/controller/DriverAccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/controller/DriverInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/controller/OcrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/mapper/DriverAccountDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/mapper/DriverAccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/mapper/DriverFaceRecognitionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/mapper/DriverInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/mapper/DriverLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/mapper/DriverSetMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/service/CiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/service/CosService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/service/DriverAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/service/DriverInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/service/OcrService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/service/impl/CiServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/service/impl/CosServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/service/impl/DriverAccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/service/impl/DriverInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/java/com/atguigu/daijia/driver/service/impl/OcrServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/resources/mapper/DriverAccountDetailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/resources/mapper/DriverAccountMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-driver/src/main/resources/mapper/DriverInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-map/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-map/src/main/java/com/atguigu/daijia/ServiceMapApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-map/src/main/java/com/atguigu/daijia/map/controller/LocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-map/src/main/java/com/atguigu/daijia/map/controller/MapController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-map/src/main/java/com/atguigu/daijia/map/repository/OrderServiceLocationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-map/src/main/java/com/atguigu/daijia/map/service/LocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-map/src/main/java/com/atguigu/daijia/map/service/MapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-map/src/main/java/com/atguigu/daijia/map/service/impl/LocationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-map/src/main/java/com/atguigu/daijia/map/service/impl/MapServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-map/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-mq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-mq/src/main/java/com/atguigu/daijia/ServiceMqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-mq/src/main/java/com/atguigu/daijia/mq/controller/MqController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-mq/src/main/java/com/atguigu/daijia/mq/receiver/ConfirmReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-mq/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/ServiceOrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/controller/OrderInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/controller/OrderMonitorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/mapper/OrderBillMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/mapper/OrderCommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/mapper/OrderInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/mapper/OrderMonitorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/mapper/OrderProfitsharingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/mapper/OrderStatusLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/mapper/OrderTrackMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/repository/OrderMonitorRecordRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/service/OrderInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/service/OrderMonitorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/atguigu/daijia/order/service/impl/OrderMonitorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/resources/mapper/OrderBillMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-order/src/main/resources/mapper/OrderInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/src/main/java/com/atguigu/daijia/ServicePaymentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/src/main/java/com/atguigu/daijia/payment/controller/WxPayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/src/main/java/com/atguigu/daijia/payment/mapper/PaymentInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/src/main/java/com/atguigu/daijia/payment/mapper/ProfitsharingInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/src/main/java/com/atguigu/daijia/payment/service/WxPayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/src/main/java/com/atguigu/daijia/payment/service/WxProfitsharingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/src/main/java/com/atguigu/daijia/payment/service/impl/WxPayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/src/main/java/com/atguigu/daijia/payment/service/impl/WxProfitsharingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/src/main/resources/apiclient_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-payment/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/ServiceRulesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/controller/FeeRuleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/controller/ProfitsharingRuleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/controller/RewardRuleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/mapper/FeeRuleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/mapper/ProfitsharingRuleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/mapper/RewardRuleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/service/FeeRuleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/service/ProfitsharingRuleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/service/RewardRuleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/service/impl/FeeRuleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/service/impl/ProfitsharingRuleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/java/com/atguigu/daijia/rules/service/impl/RewardRuleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/resources/rules/FeeRule.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/resources/rules/ProfitsharingRule.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/resources/rules/RewardRule.drl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-rules/src/main/test/java/com/atguigu/daijia/rules/ElasticsearchDemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/ServiceSystemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/controller/SecurityLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/controller/SysDeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/controller/SysLoginLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/controller/SysMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/controller/SysOperLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/controller/SysPostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/controller/SysRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/helper/DeptHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/helper/MenuHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/mapper/SysDeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/mapper/SysLoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/mapper/SysMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/mapper/SysOperLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/mapper/SysPostMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/mapper/SysRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/mapper/SysRoleMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/mapper/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/SysDeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/SysLoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/SysOperLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/SysPostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/impl/SysDeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/impl/SysLoginLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/impl/SysOperLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/impl/SysPostServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/java/com/atguigu/daijia/system/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/resources/file.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/resources/mapper/SysLoginLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/resources/mapper/SysMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/resources/mapper/SysOperLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/resources/mapper/SysPostMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-system/src/main/resources/registry.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/java/com/atguigu/daijia/WebCustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/java/com/atguigu/daijia/customer/controller/CouponController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/java/com/atguigu/daijia/customer/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/java/com/atguigu/daijia/customer/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/java/com/atguigu/daijia/customer/service/CouponService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/java/com/atguigu/daijia/customer/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/java/com/atguigu/daijia/customer/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/java/com/atguigu/daijia/customer/service/impl/CouponServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/java/com/atguigu/daijia/customer/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/java/com/atguigu/daijia/customer/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-customer/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/WebDriverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/controller/CosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/controller/DriverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/controller/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/controller/LocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/controller/MonitorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/controller/OcrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/CosService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/DriverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/LocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/MonitorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/OcrService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/impl/CosServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/impl/DriverServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/impl/FileServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/impl/LocationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/impl/MonitorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/impl/OcrServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/java/com/atguigu/daijia/driver/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-driver/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/WebMgrApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/CustomerInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/DriverInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/OrderInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/SecurityLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/SysDeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/SysLoginLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/SysMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/SysOperLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/SysPostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/SysRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/CustomerInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/DriverInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/OrderInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/SysDeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/SysLoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/SysOperLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/SysPostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/impl/CustomerInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/impl/DriverInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/impl/SysDeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/impl/SysLoginLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/impl/SysOperLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/impl/SysPostServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/java/com/atguigu/daijia/mgr/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web-mgr/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c3583784-c3eb-4c83-bc6a-0c5ade6661ab" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -469,6 +37,118 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProject\backend\lsdj-backend\lsdj-backend" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebCustomerApplication">
+    <configuration name="ServerGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServerGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceCouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-coupon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServiceCouponApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServiceCustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceDispatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-dispatch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServiceDispatchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceDriverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-driver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServiceDriverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceMapApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-map" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServiceMapApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-mq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServiceMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServiceOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicePaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-payment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServicePaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRulesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-rules" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServiceRulesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.ServiceSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebCustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web-customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.WebCustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebDriverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web-driver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.WebDriverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebMgrApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web-mgr" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.daijia.WebMgrApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
